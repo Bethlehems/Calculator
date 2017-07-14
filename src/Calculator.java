@@ -29,7 +29,7 @@ public class Calculator {
 
         System.out.println("Second number:");
         int second=sc.nextInt();
-      
+
 
         while (second==0){
             System.out.println("Can not divide. Enter again:");
