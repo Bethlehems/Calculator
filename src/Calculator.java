@@ -26,12 +26,9 @@ public class Calculator {
         int first=sc.nextInt();
         System.out.println("Second number:");
         int second=sc.nextInt();
-<<<<<<< HEAD
         while (second==0){
-=======
-      while (second==0){
->>>>>>> 7bd2f53c2fca643437f75de8f66cf330fbfb474d
-            System.out.println("Can not divide. Enter again:");
+            while (second==0){
+            System.out.println("Can not divide. Enter again:");}
         second=sc.nextInt();}
         add(first,second);
         sub(first,second);
